@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../dist/audio.dev.js"></script>
+  </head>
+
+  <body>
+    test
+    <script>
+      // print the current version
+      console.log('AudioManager VERSION: ', AudioManager.VERSION)
+
+      const main = async () => {
+        const audio = new AudioManager()
+
+        await audio.load('mysound', '../sound/376737_Skullbeatz___Bad_Cat_Maste', 'mp3', 'ogg')
+
+        const sound = await audio.add('mysound')
+
+        sound.play()
+
+        console.log('playing?', sound.isPlaying)
+
+        // setTimeout(() => {
+        //   sound.pause()
+        //   setTimeout(() => {
+        //     sound.play()
+        //   }, 2000)
+        // }, 5000)
+
+        // setInterval(() => {
+        //   console.log(sound._progress)
+        // }, Math.random() * 2000 + 2)
+
+        // const analyser = audio.newAnalyser(sound);
+        // console.log(analyser.getAverageFrequency());
+        // console.log(analyser.getFrequencyData());
+
+        // setTimeout(async () => {
+        //   const sound = await audio.add("mysound");
+        //   sound.play();
+        // }, 2000);
+      }
+
+      window.addEventListener('load', () => {
+        window.addEventListener('pointerdown', main, { once: true })
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+{
+  "name": "@yandeu/audio",
+  "version": "0.0.0",
+  "description": "🎵 Audio library for the Web Audio API. (TypeScripted version of Three.js@r126's Audio without Object3D)",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "lint": "eslint src/**",
+    "lint:fix": "eslint --fix src/**",
+    "format": "prettier --write src/**",
+    "start": "npm run dev",
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:webpack": "webpack --config webpack.dev.cjs --watch",
+    "dev:server": "live-server --open=dev",
+    "build": "npm-run-all build:*",
+    "build:version": "npm run version",
+    "build:tsc": "tsc",
+    "build:webpack": "webpack --config webpack.prod.cjs",
+    "version": "extract version src/version.ts",
+    "docs": "rimraf docs/**/*.md && typedoc .\\src --disableOutputCheck --excludePrivate --excludeProtected --plugin typedoc-plugin-markdown --hideInPageTOC true",
+    "prepareRelease": "node scripts/release.cjs && npm i && npm run build && npm run docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yandeu/audio.git"
+  },
+  "keywords": [
+    "web",
+    "audio",
+    "audio",
+    "sound",
+    "music"
+  ],
+  "author": "Yannick Deubel (https://github.com/yandeu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yandeu/audio/issues"
+  },
+  "homepage": "https://yandeu.github.io/audio/",
+  "dependencies": {
+    "@types/three": "~0.126.0",
+    "three": "~0.126.1"
+  },
+  "devDependencies": {
+    "@yandeu/eslint-config": "^0.0.1",
+    "@yandeu/extract": "^0.0.2",
+    "@yandeu/prettier-config": "^0.0.1",
+    "html-webpack-plugin": "^5.2.0",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^8.0.17",
+    "typedoc": "^0.20.29",
+    "typedoc-plugin-markdown": "^3.6.0",
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
+}

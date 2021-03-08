@@ -1,6 +1,6 @@
 {
   "name": "@yandeu/audio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "🎵 Audio library for the Web Audio API. (TypeScripted version of Three.js@r126's Audio without Object3D)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,7 +18,7 @@
     "build:webpack": "webpack --config webpack.prod.cjs",
     "version": "extract version src/version.ts",
     "docs": "rimraf docs/**/*.md && typedoc .\\src --disableOutputCheck --excludePrivate --excludeProtected --plugin typedoc-plugin-markdown --hideInPageTOC true",
-    "prepareRelease": "node scripts/release.cjs && npm i && npm run build && npm run docs"
+    "prepareRelease": "node scripts/release.cjs && npm i && npm run lint && npm run build && npm run docs"
   },
   "repository": {
     "type": "git",

@@ -51,6 +51,10 @@ sound.stop()
 You will find the documentation on https://yandeu.github.io/audio.  
 The most importent classes are **[AudioManager](https://yandeu.github.io/audio/classes/audiomanager.audiomanager-1.html)** and **[Audio](https://yandeu.github.io/audio/classes/audio_audio.audio.html)**.
 
+## Questions?
+
+Join the [enable3d discussions](https://github.com/enable3d/enable3d/discussions)!
+
 ## License
 
 [MIT](https://github.com/yandeu/audio/blob/main/LICENSE)

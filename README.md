@@ -18,6 +18,9 @@ https://unpkg.com/@yandeu/audio/umd/audio.min.js
 ## Usage
 
 ```ts
+// import AudioManager
+import { AudioManager } from '@yandeu/audio'
+
 // print the current version
 console.log('AudioManager VERSION: ', AudioManager.VERSION)
 

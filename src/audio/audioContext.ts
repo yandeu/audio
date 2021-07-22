@@ -9,7 +9,9 @@ export const AudioContext = {
   /** Return the value of the variable context in the outer scope, if defined, otherwise set it to a new AudioContext. */
   getContext: function (): AudioContext {
     if (_context === undefined) {
-      _context = new window.AudioContext()
+      // @ts-ignore
+      const AudioContext = window.AudioContext || window.webkitAudioContext
+      _context = new AudioContext()
     }
 
     return _context

@@ -2,8 +2,6 @@
 
 # Module: audio/audioAnalyser
 
-## Table of contents
+## Classes
 
-### Classes
-
-- [AudioAnalyser](../classes/audio_audioanalyser.audioanalyser.md)
+- [AudioAnalyser](../classes/audio_audioAnalyser.AudioAnalyser.md)

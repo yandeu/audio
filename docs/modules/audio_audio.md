@@ -2,8 +2,6 @@
 
 # Module: audio/audio
 
-## Table of contents
+## Classes
 
-### Classes
-
-- [Audio](../classes/audio_audio.audio.md)
+- [Audio](../classes/audio_audio.Audio.md)

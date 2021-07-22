@@ -2,8 +2,6 @@
 
 # Module: audio/audioListener
 
-## Table of contents
+## Classes
 
-### Classes
-
-- [AudioListener](../classes/audio_audiolistener.audiolistener.md)
+- [AudioListener](../classes/audio_audioListener.AudioListener.md)

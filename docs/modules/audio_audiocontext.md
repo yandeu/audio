@@ -6,17 +6,19 @@
 
 ### AudioContext
 
-• `Const` **AudioContext**: *object*
+• `Const` **AudioContext**: `Object`
 
 This contains methods for setting up an AudioContext.
 Used internally by the AudioListener and AudioLoader classes.
 This uses the Web Audio API.
 
-#### Type declaration:
+#### Type declaration
 
-Name | Type |
-:------ | :------ |
-`getContext` | () => AudioContext |
-`setContext` | (`value`: AudioContext) => *void* |
+| Name | Type |
+| :------ | :------ |
+| `getContext` | () => `AudioContext` |
+| `setContext` | (`value`: `AudioContext`) => `void` |
 
-Defined in: [src/audio/audioContext.ts:8](https://github.com/yandeu/audio/blob/228bbf8/src/audio/audioContext.ts#L8)
+#### Defined in
+
+[src/audio/audioContext.ts:8](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioContext.ts#L8)

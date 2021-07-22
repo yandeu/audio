@@ -1,203 +1,297 @@
-[@yandeu/audio](../README.md) / [Exports](../modules.md) / [audio/audioLoader](../modules/audio_audioloader.md) / AudioLoader
+[@yandeu/audio](../README.md) / [Exports](../modules.md) / [audio/audioLoader](../modules/audio_audioLoader.md) / AudioLoader
 
 # Class: AudioLoader
 
-[audio/audioLoader](../modules/audio_audioloader.md).AudioLoader
+[audio/audioLoader](../modules/audio_audioLoader.md).AudioLoader
 
 ## Hierarchy
 
-* *Loader*
+- `Loader`
 
-  ↳ **AudioLoader**
+  ↳ **`AudioLoader`**
 
 ## Constructors
 
 ### constructor
 
-\+ **new AudioLoader**(`manager?`: *undefined*): [*AudioLoader*](audio_audioloader.audioloader.md)
+• **new AudioLoader**(`manager?`)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`manager` | *undefined* |
+| Name | Type |
+| :------ | :------ |
+| `manager` | `undefined` |
 
-**Returns:** [*AudioLoader*](audio_audioloader.audioloader.md)
+#### Overrides
 
-Defined in: [src/audio/audioLoader.ts:5](https://github.com/yandeu/audio/blob/228bbf8/src/audio/audioLoader.ts#L5)
+Loader.constructor
+
+#### Defined in
+
+[src/audio/audioLoader.ts:6](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioLoader.ts#L6)
 
 ## Properties
 
 ### crossOrigin
 
-• **crossOrigin**: *string*
+• **crossOrigin**: `string`
 
 **`default`** 'anonymous'
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:12
+#### Inherited from
+
+Loader.crossOrigin
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:12
 
 ___
 
 ### manager
 
-• **manager**: *LoadingManager*
+• **manager**: `LoadingManager`
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:28
+#### Inherited from
+
+Loader.manager
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:28
 
 ___
 
 ### path
 
-• **path**: *string*
+• **path**: `string`
 
 **`default`** ''
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:22
+#### Inherited from
+
+Loader.path
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:22
 
 ___
 
 ### requestHeader
 
-• **requestHeader**: *object*
+• **requestHeader**: `Object`
 
 **`default`** {}
 
-#### Type declaration:
+#### Index signature
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:33
+▪ [header: `string`]: `string`
+
+#### Inherited from
+
+Loader.requestHeader
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:33
 
 ___
 
 ### resourcePath
 
-• **resourcePath**: *string*
+• **resourcePath**: `string`
 
 **`default`** ''
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:27
+#### Inherited from
+
+Loader.resourcePath
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:27
 
 ___
 
 ### withCredentials
 
-• **withCredentials**: *boolean*
+• **withCredentials**: `boolean`
 
 **`default:`** false
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:17
+#### Inherited from
+
+Loader.withCredentials
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:17
 
 ## Methods
 
 ### load
 
-▸ **load**(`url`: *string*, `onLoad`: *any*, `onProgress`: *any*, `onError`: *any*): *void*
+▸ **load**(`url`, `onLoad`, `onProgress`, `onError`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`url` | *string* |
-`onLoad` | *any* |
-`onProgress` | *any* |
-`onError` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `onLoad` | `any` |
+| `onProgress` | `any` |
+| `onError` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: [src/audio/audioLoader.ts:10](https://github.com/yandeu/audio/blob/228bbf8/src/audio/audioLoader.ts#L10)
+`void`
+
+#### Defined in
+
+[src/audio/audioLoader.ts:10](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioLoader.ts#L10)
 
 ___
 
 ### loadAsync
 
-▸ **loadAsync**(`url`: *string*, `onProgress?`: (`event`: *ProgressEvent*<EventTarget\>) => *void*): *Promise*<any\>
+▸ **loadAsync**(`url`, `onProgress?`): `Promise`<`any`\>
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`url` | *string* |
-`onProgress?` | (`event`: *ProgressEvent*<EventTarget\>) => *void* |
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+| `onProgress?` | (`event`: `ProgressEvent`<`EventTarget`\>) => `void` |
 
-**Returns:** *Promise*<any\>
+#### Returns
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:40
+`Promise`<`any`\>
+
+#### Inherited from
+
+Loader.loadAsync
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:40
 
 ___
 
 ### setCrossOrigin
 
-▸ **setCrossOrigin**(`crossOrigin`: *string*): [*AudioLoader*](audio_audioloader.audioloader.md)
+▸ **setCrossOrigin**(`crossOrigin`): [`AudioLoader`](audio_audioLoader.AudioLoader.md)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`crossOrigin` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `crossOrigin` | `string` |
 
-**Returns:** [*AudioLoader*](audio_audioloader.audioloader.md)
+#### Returns
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:42
+[`AudioLoader`](audio_audioLoader.AudioLoader.md)
+
+#### Inherited from
+
+Loader.setCrossOrigin
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:42
 
 ___
 
 ### setPath
 
-▸ **setPath**(`path`: *string*): [*AudioLoader*](audio_audioloader.audioloader.md)
+▸ **setPath**(`path`): [`AudioLoader`](audio_audioLoader.AudioLoader.md)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`path` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `path` | `string` |
 
-**Returns:** [*AudioLoader*](audio_audioloader.audioloader.md)
+#### Returns
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:44
+[`AudioLoader`](audio_audioLoader.AudioLoader.md)
+
+#### Inherited from
+
+Loader.setPath
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:44
 
 ___
 
 ### setRequestHeader
 
-▸ **setRequestHeader**(`requestHeader`: { [header: string]: *string*;  }): [*AudioLoader*](audio_audioloader.audioloader.md)
+▸ **setRequestHeader**(`requestHeader`): [`AudioLoader`](audio_audioLoader.AudioLoader.md)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`requestHeader` | *object* |
+| Name | Type |
+| :------ | :------ |
+| `requestHeader` | `Object` |
 
-**Returns:** [*AudioLoader*](audio_audioloader.audioloader.md)
+#### Returns
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:46
+[`AudioLoader`](audio_audioLoader.AudioLoader.md)
+
+#### Inherited from
+
+Loader.setRequestHeader
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:46
 
 ___
 
 ### setResourcePath
 
-▸ **setResourcePath**(`resourcePath`: *string*): [*AudioLoader*](audio_audioloader.audioloader.md)
+▸ **setResourcePath**(`resourcePath`): [`AudioLoader`](audio_audioLoader.AudioLoader.md)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`resourcePath` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `resourcePath` | `string` |
 
-**Returns:** [*AudioLoader*](audio_audioloader.audioloader.md)
+#### Returns
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:45
+[`AudioLoader`](audio_audioLoader.AudioLoader.md)
+
+#### Inherited from
+
+Loader.setResourcePath
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:45
 
 ___
 
 ### setWithCredentials
 
-▸ **setWithCredentials**(`value`: *boolean*): [*AudioLoader*](audio_audioloader.audioloader.md)
+▸ **setWithCredentials**(`value`): [`AudioLoader`](audio_audioLoader.AudioLoader.md)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`value` | *boolean* |
+| Name | Type |
+| :------ | :------ |
+| `value` | `boolean` |
 
-**Returns:** [*AudioLoader*](audio_audioloader.audioloader.md)
+#### Returns
 
-Defined in: node_modules/@types/three/src/loaders/Loader.d.ts:43
+[`AudioLoader`](audio_audioLoader.AudioLoader.md)
+
+#### Inherited from
+
+Loader.setWithCredentials
+
+#### Defined in
+
+node_modules/@types/three/src/loaders/Loader.d.ts:43

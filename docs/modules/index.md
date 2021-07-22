@@ -6,4 +6,4 @@
 
 ### AudioManager
 
-Re-exports: [AudioManager](../classes/audiomanager.audiomanager-1.md)
+Re-exports: [AudioManager](../classes/audioManager.AudioManager.md)

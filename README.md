@@ -49,6 +49,10 @@ sound.stop()
 // and many many more...
 ```
 
+## Transpile
+
+You probably need something like [babel](https://babeljs.io/) to make this library work on older devices.
+
 ## Apple iOS
 
 On a newly-created AudioContext will always begin in the suspended state. Resume the state on a user event.

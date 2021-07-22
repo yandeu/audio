@@ -73,7 +73,7 @@ window.addEventListener(
 ## API
 
 You will find the full API on https://yandeu.github.io/audio.  
-The most important classes are **[AudioManager](https://yandeu.github.io/audio/classes/audiomanager.audiomanager-1.html)** and **[Audio](https://yandeu.github.io/audio/classes/audio_audio.audio.html)**.
+The most important classes are **[AudioManager](https://yandeu.github.io/audio/classes/audioManager.AudioManager.html)** and **[Audio](https://yandeu.github.io/audio/classes/audio_audio.Audio.html)**.
 
 ## Related Packages
 

@@ -10,6 +10,31 @@
 
   ↳ **`AudioLoader`**
 
+## Table of contents
+
+### Constructors
+
+- [constructor](audio_audioLoader.AudioLoader.md#constructor)
+
+### Properties
+
+- [crossOrigin](audio_audioLoader.AudioLoader.md#crossorigin)
+- [manager](audio_audioLoader.AudioLoader.md#manager)
+- [path](audio_audioLoader.AudioLoader.md#path)
+- [requestHeader](audio_audioLoader.AudioLoader.md#requestheader)
+- [resourcePath](audio_audioLoader.AudioLoader.md#resourcepath)
+- [withCredentials](audio_audioLoader.AudioLoader.md#withcredentials)
+
+### Methods
+
+- [load](audio_audioLoader.AudioLoader.md#load)
+- [loadAsync](audio_audioLoader.AudioLoader.md#loadasync)
+- [setCrossOrigin](audio_audioLoader.AudioLoader.md#setcrossorigin)
+- [setPath](audio_audioLoader.AudioLoader.md#setpath)
+- [setRequestHeader](audio_audioLoader.AudioLoader.md#setrequestheader)
+- [setResourcePath](audio_audioLoader.AudioLoader.md#setresourcepath)
+- [setWithCredentials](audio_audioLoader.AudioLoader.md#setwithcredentials)
+
 ## Constructors
 
 ### constructor
@@ -28,7 +53,7 @@ Loader.constructor
 
 #### Defined in
 
-[src/audio/audioLoader.ts:6](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioLoader.ts#L6)
+[src/audio/audioLoader.ts:6](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audioLoader.ts#L6)
 
 ## Properties
 
@@ -149,7 +174,7 @@ node_modules/@types/three/src/loaders/Loader.d.ts:17
 
 #### Defined in
 
-[src/audio/audioLoader.ts:10](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioLoader.ts#L10)
+[src/audio/audioLoader.ts:10](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audioLoader.ts#L10)
 
 ___
 

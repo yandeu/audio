@@ -2,6 +2,12 @@
 
 # Module: index
 
+## Table of contents
+
+### References
+
+- [AudioManager](index.md#audiomanager)
+
 ## References
 
 ### AudioManager

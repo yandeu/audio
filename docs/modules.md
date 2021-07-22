@@ -2,7 +2,9 @@
 
 # @yandeu/audio
 
-## Modules
+## Table of contents
+
+### Modules
 
 - [audio/audio](modules/audio_audio.md)
 - [audio/audioAnalyser](modules/audio_audioAnalyser.md)

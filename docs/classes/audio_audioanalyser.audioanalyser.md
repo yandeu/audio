@@ -7,6 +7,22 @@
 Create a AudioAnalyser object, which uses an AnalyserNode to analyse audio data.
 This uses the Web Audio API.
 
+## Table of contents
+
+### Constructors
+
+- [constructor](audio_audioAnalyser.AudioAnalyser.md#constructor)
+
+### Properties
+
+- [analyser](audio_audioAnalyser.AudioAnalyser.md#analyser)
+- [data](audio_audioAnalyser.AudioAnalyser.md#data)
+
+### Methods
+
+- [getAverageFrequency](audio_audioAnalyser.AudioAnalyser.md#getaveragefrequency)
+- [getFrequencyData](audio_audioAnalyser.AudioAnalyser.md#getfrequencydata)
+
 ## Constructors
 
 ### constructor
@@ -24,7 +40,7 @@ An [AnalyserNode](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode)
 
 #### Defined in
 
-[src/audio/audioAnalyser.ts:18](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioAnalyser.ts#L18)
+[src/audio/audioAnalyser.ts:18](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audioAnalyser.ts#L18)
 
 ## Properties
 
@@ -36,7 +52,7 @@ An AnalyserNode used to analyze audio.
 
 #### Defined in
 
-[src/audio/audioAnalyser.ts:9](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioAnalyser.ts#L9)
+[src/audio/audioAnalyser.ts:9](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audioAnalyser.ts#L9)
 
 ___
 
@@ -48,7 +64,7 @@ A Uint8Array with size determined by analyser.frequencyBinCount used to hold ana
 
 #### Defined in
 
-[src/audio/audioAnalyser.ts:11](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioAnalyser.ts#L11)
+[src/audio/audioAnalyser.ts:11](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audioAnalyser.ts#L11)
 
 ## Methods
 
@@ -64,7 +80,7 @@ Get the average of the frequencies returned by the getFrequencyData method.
 
 #### Defined in
 
-[src/audio/audioAnalyser.ts:35](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioAnalyser.ts#L35)
+[src/audio/audioAnalyser.ts:35](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audioAnalyser.ts#L35)
 
 ___
 
@@ -80,4 +96,4 @@ Uses the Web Audio's getByteFrequencyData method. See that page.
 
 #### Defined in
 
-[src/audio/audioAnalyser.ts:28](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioAnalyser.ts#L28)
+[src/audio/audioAnalyser.ts:28](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audioAnalyser.ts#L28)

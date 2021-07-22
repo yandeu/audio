@@ -2,9 +2,15 @@
 
 # Module: audioManager
 
-## Classes
+## Table of contents
+
+### Classes
 
 - [AudioManager](../classes/audioManager.AudioManager.md)
+
+### Variables
+
+- [AudioFormats](audioManager.md#audioformats)
 
 ## Variables
 
@@ -27,4 +33,4 @@
 
 #### Defined in
 
-[src/audioManager.ts:8](https://github.com/yandeu/audio/blob/91e099e/src/audioManager.ts#L8)
+[src/audioManager.ts:8](https://github.com/yandeu/audio/blob/2f71ca1/src/audioManager.ts#L8)

@@ -17,7 +17,7 @@
     "build:tsc": "tsc",
     "build:webpack": "webpack --config webpack.prod.cjs",
     "version": "extract version src/version.ts && npm run format",
-    "docs": "rimraf docs/**/*.md && typedoc .\\src --disableOutputCheck --excludePrivate --excludeProtected --plugin typedoc-plugin-markdown --hideInPageTOC true",
+    "docs": "rimraf docs/**/*.md && typedoc .\\src --disableOutputCheck --excludePrivate --excludeProtected",
     "prepareRelease": "node scripts/release.cjs && npm i --legacy-peer-deps && npm run lint && npm run build && npm run docs"
   },
   "repository": {

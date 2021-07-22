@@ -2,6 +2,12 @@
 
 # Module: audio/audioContext
 
+## Table of contents
+
+### Variables
+
+- [AudioContext](audio_audioContext.md#audiocontext)
+
 ## Variables
 
 ### AudioContext
@@ -21,4 +27,4 @@ This uses the Web Audio API.
 
 #### Defined in
 
-[src/audio/audioContext.ts:8](https://github.com/yandeu/audio/blob/91e099e/src/audio/audioContext.ts#L8)
+[src/audio/audioContext.ts:8](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audioContext.ts#L8)

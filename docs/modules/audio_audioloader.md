@@ -2,6 +2,8 @@
 
 # Module: audio/audioLoader
 
-## Classes
+## Table of contents
+
+### Classes
 
 - [AudioLoader](../classes/audio_audioLoader.AudioLoader.md)

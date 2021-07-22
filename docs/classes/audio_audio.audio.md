@@ -7,6 +7,55 @@
 Create a audio object.
 This uses the Web Audio API.
 
+## Table of contents
+
+### Constructors
+
+- [constructor](audio_audio.Audio.md#constructor)
+
+### Properties
+
+- [autoplay](audio_audio.Audio.md#autoplay)
+- [context](audio_audio.Audio.md#context)
+- [detune](audio_audio.Audio.md#detune)
+- [duration](audio_audio.Audio.md#duration)
+- [filters](audio_audio.Audio.md#filters)
+- [gain](audio_audio.Audio.md#gain)
+- [hasPlaybackControl](audio_audio.Audio.md#hasplaybackcontrol)
+- [isPlaying](audio_audio.Audio.md#isplaying)
+- [listener](audio_audio.Audio.md#listener)
+- [offset](audio_audio.Audio.md#offset)
+- [playbackRate](audio_audio.Audio.md#playbackrate)
+- [source](audio_audio.Audio.md#source)
+- [sourceType](audio_audio.Audio.md#sourcetype)
+- [type](audio_audio.Audio.md#type)
+
+### Methods
+
+- [connect](audio_audio.Audio.md#connect)
+- [disconnect](audio_audio.Audio.md#disconnect)
+- [getFilter](audio_audio.Audio.md#getfilter)
+- [getFilters](audio_audio.Audio.md#getfilters)
+- [getLoop](audio_audio.Audio.md#getloop)
+- [getOutput](audio_audio.Audio.md#getoutput)
+- [getPlaybackRate](audio_audio.Audio.md#getplaybackrate)
+- [getVolume](audio_audio.Audio.md#getvolume)
+- [onEnded](audio_audio.Audio.md#onended)
+- [pause](audio_audio.Audio.md#pause)
+- [play](audio_audio.Audio.md#play)
+- [setBuffer](audio_audio.Audio.md#setbuffer)
+- [setFilter](audio_audio.Audio.md#setfilter)
+- [setFilters](audio_audio.Audio.md#setfilters)
+- [setLoop](audio_audio.Audio.md#setloop)
+- [setLoopEnd](audio_audio.Audio.md#setloopend)
+- [setLoopStart](audio_audio.Audio.md#setloopstart)
+- [setMediaElementSource](audio_audio.Audio.md#setmediaelementsource)
+- [setMediaStreamSource](audio_audio.Audio.md#setmediastreamsource)
+- [setNodeSource](audio_audio.Audio.md#setnodesource)
+- [setPlaybackRate](audio_audio.Audio.md#setplaybackrate)
+- [setVolume](audio_audio.Audio.md#setvolume)
+- [stop](audio_audio.Audio.md#stop)
+
 ## Constructors
 
 ### constructor
@@ -21,7 +70,7 @@ This uses the Web Audio API.
 
 #### Defined in
 
-[src/audio/audio.ts:52](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L52)
+[src/audio/audio.ts:52](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L52)
 
 ## Properties
 
@@ -33,7 +82,7 @@ Whether to start playback automatically. Default is false.
 
 #### Defined in
 
-[src/audio/audio.ts:11](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L11)
+[src/audio/audio.ts:11](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L11)
 
 ___
 
@@ -45,7 +94,7 @@ The AudioContext of the listener given in the constructor.
 
 #### Defined in
 
-[src/audio/audio.ts:13](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L13)
+[src/audio/audio.ts:13](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L13)
 
 ___
 
@@ -57,7 +106,7 @@ Modify pitch, measured in cents. +/- 100 is a semitone. +/- 1200 is an octave. D
 
 #### Defined in
 
-[src/audio/audio.ts:15](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L15)
+[src/audio/audio.ts:15](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L15)
 
 ___
 
@@ -69,7 +118,7 @@ Overrides the duration of the audio. Same as the duration parameter of AudioBuff
 
 #### Defined in
 
-[src/audio/audio.ts:17](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L17)
+[src/audio/audio.ts:17](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L17)
 
 ___
 
@@ -81,7 +130,7 @@ Represents an array of BiquadFilterNodes. Can be used to apply a variety of low-
 
 #### Defined in
 
-[src/audio/audio.ts:19](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L19)
+[src/audio/audio.ts:19](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L19)
 
 ___
 
@@ -93,7 +142,7 @@ A GainNode created using AudioContext.createGain().
 
 #### Defined in
 
-[src/audio/audio.ts:21](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L21)
+[src/audio/audio.ts:21](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L21)
 
 ___
 
@@ -105,7 +154,7 @@ Whether playback can be controlled using the play(), pause() etc. methods. Defau
 
 #### Defined in
 
-[src/audio/audio.ts:23](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L23)
+[src/audio/audio.ts:23](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L23)
 
 ___
 
@@ -117,7 +166,7 @@ Whether the audio is currently playing.
 
 #### Defined in
 
-[src/audio/audio.ts:25](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L25)
+[src/audio/audio.ts:25](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L25)
 
 ___
 
@@ -129,7 +178,7 @@ A reference to the listener object of this audio.
 
 #### Defined in
 
-[src/audio/audio.ts:27](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L27)
+[src/audio/audio.ts:27](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L27)
 
 ___
 
@@ -141,7 +190,7 @@ An offset to the time within the audio buffer that playback should begin. Same a
 
 #### Defined in
 
-[src/audio/audio.ts:29](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L29)
+[src/audio/audio.ts:29](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L29)
 
 ___
 
@@ -153,7 +202,7 @@ Speed of playback. Default is 1.
 
 #### Defined in
 
-[src/audio/audio.ts:31](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L31)
+[src/audio/audio.ts:31](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L31)
 
 ___
 
@@ -165,7 +214,7 @@ An AudioBufferSourceNode created using AudioContext.createBufferSource().
 
 #### Defined in
 
-[src/audio/audio.ts:33](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L33)
+[src/audio/audio.ts:33](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L33)
 
 ___
 
@@ -177,7 +226,7 @@ Type of the audio source. Default is string 'empty'.
 
 #### Defined in
 
-[src/audio/audio.ts:35](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L35)
+[src/audio/audio.ts:35](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L35)
 
 ___
 
@@ -189,7 +238,7 @@ String denoting the type, set to 'Audio'.
 
 #### Defined in
 
-[src/audio/audio.ts:37](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L37)
+[src/audio/audio.ts:37](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L37)
 
 ## Methods
 
@@ -205,7 +254,7 @@ Connect to the Audio.source. This is used internally on initialisation and when 
 
 #### Defined in
 
-[src/audio/audio.ts:218](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L218)
+[src/audio/audio.ts:218](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L218)
 
 ___
 
@@ -221,7 +270,7 @@ Disconnect from the Audio.source. This is used internally when setting / removin
 
 #### Defined in
 
-[src/audio/audio.ts:237](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L237)
+[src/audio/audio.ts:237](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L237)
 
 ___
 
@@ -237,7 +286,7 @@ Returns the first element of the filters array.
 
 #### Defined in
 
-[src/audio/audio.ts:279](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L279)
+[src/audio/audio.ts:279](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L279)
 
 ___
 
@@ -253,7 +302,7 @@ Returns the filters array.
 
 #### Defined in
 
-[src/audio/audio.ts:256](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L256)
+[src/audio/audio.ts:256](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L256)
 
 ___
 
@@ -269,7 +318,7 @@ Return the value of source.loop (whether playback should loop).
 
 #### Defined in
 
-[src/audio/audio.ts:315](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L315)
+[src/audio/audio.ts:315](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L315)
 
 ___
 
@@ -285,7 +334,7 @@ Return the gainNode.
 
 #### Defined in
 
-[src/audio/audio.ts:84](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L84)
+[src/audio/audio.ts:84](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L84)
 
 ___
 
@@ -301,7 +350,7 @@ Return the value of playbackRate.
 
 #### Defined in
 
-[src/audio/audio.ts:305](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L305)
+[src/audio/audio.ts:305](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L305)
 
 ___
 
@@ -317,7 +366,7 @@ Return the current volume.
 
 #### Defined in
 
-[src/audio/audio.ts:355](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L355)
+[src/audio/audio.ts:355](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L355)
 
 ___
 
@@ -333,7 +382,7 @@ Called automatically when playback finished.
 
 #### Defined in
 
-[src/audio/audio.ts:310](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L310)
+[src/audio/audio.ts:310](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L310)
 
 ___
 
@@ -349,7 +398,7 @@ If hasPlaybackControl is true, pauses playback.
 
 #### Defined in
 
-[src/audio/audio.ts:175](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L175)
+[src/audio/audio.ts:175](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L175)
 
 ___
 
@@ -371,7 +420,7 @@ If hasPlaybackControl is true, starts playback.
 
 #### Defined in
 
-[src/audio/audio.ts:143](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L143)
+[src/audio/audio.ts:143](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L143)
 
 ___
 
@@ -394,7 +443,7 @@ If autoplay, also starts playback.
 
 #### Defined in
 
-[src/audio/audio.ts:133](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L133)
+[src/audio/audio.ts:133](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L133)
 
 ___
 
@@ -416,7 +465,7 @@ Applies a single BiquadFilterNode to the audio.
 
 #### Defined in
 
-[src/audio/audio.ts:284](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L284)
+[src/audio/audio.ts:284](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L284)
 
 ___
 
@@ -439,7 +488,7 @@ Applies an array of BiquadFilterNodes to the audio.
 
 #### Defined in
 
-[src/audio/audio.ts:264](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L264)
+[src/audio/audio.ts:264](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L264)
 
 ___
 
@@ -461,7 +510,7 @@ Set source.loop to value (whether playback should loop).
 
 #### Defined in
 
-[src/audio/audio.ts:325](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L325)
+[src/audio/audio.ts:325](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L325)
 
 ___
 
@@ -483,7 +532,7 @@ Set source.loopEnd to value.
 
 #### Defined in
 
-[src/audio/audio.ts:348](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L348)
+[src/audio/audio.ts:348](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L348)
 
 ___
 
@@ -505,7 +554,7 @@ Set source.loopStart to value.
 
 #### Defined in
 
-[src/audio/audio.ts:341](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L341)
+[src/audio/audio.ts:341](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L341)
 
 ___
 
@@ -528,7 +577,7 @@ Also sets hasPlaybackControl to false.
 
 #### Defined in
 
-[src/audio/audio.ts:105](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L105)
+[src/audio/audio.ts:105](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L105)
 
 ___
 
@@ -551,7 +600,7 @@ Also sets hasPlaybackControl to false.
 
 #### Defined in
 
-[src/audio/audio.ts:119](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L119)
+[src/audio/audio.ts:119](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L119)
 
 ___
 
@@ -574,7 +623,7 @@ Also sets hasPlaybackControl to false.
 
 #### Defined in
 
-[src/audio/audio.ts:92](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L92)
+[src/audio/audio.ts:92](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L92)
 
 ___
 
@@ -596,7 +645,7 @@ If hasPlaybackControl is enabled, set the playbackRate to value.
 
 #### Defined in
 
-[src/audio/audio.ts:289](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L289)
+[src/audio/audio.ts:289](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L289)
 
 ___
 
@@ -618,7 +667,7 @@ Set the volume.
 
 #### Defined in
 
-[src/audio/audio.ts:360](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L360)
+[src/audio/audio.ts:360](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L360)
 
 ___
 
@@ -634,4 +683,4 @@ If hasPlaybackControl is enabled, stops playback.
 
 #### Defined in
 
-[src/audio/audio.ts:202](https://github.com/yandeu/audio/blob/91e099e/src/audio/audio.ts#L202)
+[src/audio/audio.ts:202](https://github.com/yandeu/audio/blob/2f71ca1/src/audio/audio.ts#L202)
